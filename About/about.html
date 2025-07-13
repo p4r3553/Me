@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | p4r3553</title>
+  <link rel="stylesheet" href="static/css/style.css">
+  <link rel="icon" href="static/assets/tux.png" type="image/png">
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <div class="logo">
+        <h1>p4r3553</h1>
+        <p>Network & Cybersecurity Student</p>
+      </div>
+      <nav>
+        <!-- bouton hamburger pour mobile -->
+        <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="tools.html">Tools</a></li>
+          <li><a href="wu.html">WU</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Who Am I?</h2>
+        <p>Hello! I'm <strong>p4r3553</strong>, a dedicated student specializing in Network & Telecommunication with a passion for Cybersecurity. I aim to develop secure and efficient IT solutions.</p>
+      </section>
+      <section>
+        <h2>Professional Skills</h2>
+        <ul>
+          <li><strong>Network Design:</strong> Scalable infrastructure planning.</li>
+          <li><strong>Cybersecurity:</strong> Robust security protocols.</li>
+          <li><strong>Programming:</strong> Python, HTML, CSS.</li>
+          <li><strong>Communication:</strong> Technical documentation.</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Hobbies & Interests</h2>
+        <ul>
+          <li><strong>Music:</strong> Rap & classical listener.</li>
+          <li><strong>Sports:</strong> Cycling & swimming for fitness.</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Goals</h2>
+        <p>I aim to refine my networking and cybersecurity expertise and join a consultancy role to enhance IT system performance and security.</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 p4r3553. All rights reserved.</p>
+      <p>
+        <a href="https://github.com/p4r3553">GitHub</a> |
+        <a href="https://www.root-me.org/Paresse1">Root-Me</a> |
+        <a href="https://x.com/p4r3553">X</a>
+      </p>
+    </footer>
+  </div>
+
+  <!-- script de bascule du menu mobile -->
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const menu   = document.querySelector('nav ul');
+    toggle.addEventListener('click', () => {
+      menu.classList.toggle('open');
+    });
+  </script>
+</body>
+</html>
