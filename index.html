@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home | p4r3553</title>
+
+  <!-- Lien vers ton CSS -->
+  <link rel="stylesheet" href="static/css/style.css">
+
+  <!-- Ton favicon (PNG) -->
+  <link rel="icon" href="static/assets/tux.png" type="image/png">
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <div class="logo">
+        <h1>p4r3553</h1>
+        <p>Network & Cybersecurity Student</p>
+      </div>
+      <nav>
+        <!-- Bouton “hamburger” pour mobile -->
+        <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="tools.html">Tools</a></li>
+          <li><a href="wu.html">WU</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Welcome</h2>
+        <p>I’m <strong>p4r3553</strong>, a student passionate about network architecture, cybersecurity, CTF challenges and developing analysis tools. Explore my work below!</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 p4r3553. All rights reserved.</p>
+      <p>
+        <a href="https://github.com/p4r3553">GitHub</a> |
+        <a href="https://www.root-me.org/Paresse1">Root-Me</a> |
+        <a href="https://x.com/p4r3553">X</a>
+      </p>
+    </footer>
+  </div>
+
+  <!-- Script pour basculer le menu sur mobile -->
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const menu   = document.querySelector('nav ul');
+    toggle.addEventListener('click', () => {
+      menu.classList.toggle('open');
+    });
+  </script>
+</body>
+</html>
